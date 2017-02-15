@@ -13,19 +13,19 @@ FROM          centos:7
 MAINTAINER    Raman Nanda <Raman148@gmail.com>
 
 
-ENV           FFMPEG_VERSION=2.8.1 \
-              MPLAYER_VERSION=1.2  \
+ENV           FFMPEG_VERSION=3.0.7 \
+              MPLAYER_VERSION=1.3.0  \
               YASM_VERSION=1.3.0   \
               OGG_VERSION=1.3.2    \
               VORBIS_VERSION=1.3.5 \
               THEORA_VERSION=1.1.1 \
               LAME_VERSION=3.99.5  \
-              OPUS_VERSION=1.1     \
+              OPUS_VERSION=1.1.4     \
               FAAC_VERSION=1.28    \
-              VPX_VERSION=1.4.0    \
+              VPX_VERSION=1.6.1   \
               XVID_VERSION=1.3.4   \
-              FDKAAC_VERSION=0.1.4 \
-              X265_VERSION=1.8     \
+              FDKAAC_VERSION=0.1.5 \
+              X265_VERSION=2.3     \
               NODEJS_VERSION=6.9.5 
 
 COPY          run.sh /tmp/run.sh
